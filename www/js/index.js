@@ -6,13 +6,14 @@ $(document).on("pagecreate","#pageone",function(){
 function random() {
 return !Math.round(Math.random());
 }
-	$('#taptext').on("tap",function(){
-    	alert("Stop tapping!");
- 	}); 
+	
+$('#taptext').on("tap",function(){
+    alert("Stop tapping!");
+ }); 
 
-	$('#swipetext').on("swipeleft",function(){
-    	$(this).css('color', 'green');
-  	});   
+$('#swipetext').on("swipeleft",function(){
+    $(this).css('color', 'green');
+  });   
 
 
 });
