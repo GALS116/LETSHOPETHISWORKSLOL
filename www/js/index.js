@@ -2,10 +2,10 @@
 
 $(document).on("pagecreate","#pageone",function(){
   
-  	$('#tapholdtext').on("taphold",function(){
-    	$(this).hide();
- 	});                       
-
+  	                   
+function random() {
+return !Math.round(Math.random());
+}
 	$('#taptext').on("tap",function(){
     	alert("Stop tapping!");
  	}); 
